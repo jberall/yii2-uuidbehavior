@@ -1,0 +1,22 @@
+{
+    "name": "jberall/yii2-uuidbehavior",
+    "description": "Attaches a Ramsey V4::UUID ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," uuid"," behavior"," Ramsey"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jonathan Berall",
+            "email": "jberall@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+		"ramsey/uuid": "^3.5",	
+    },
+    "autoload": {
+        "psr-4": {
+            "jberall\\uuidbehavior\\": "src"
+        }
+    }
+}
